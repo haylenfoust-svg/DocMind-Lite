@@ -1,0 +1,18 @@
+# DocMind Lite - Python Dependencies
+#
+# System dependencies (install separately):
+#   macOS:   brew install poppler
+#   Ubuntu:  sudo apt install poppler-utils
+#   Windows: See README.md for instructions
+#
+# Python version: >= 3.8
+
+# Core dependencies
+dashscope>=1.14.0        # Aliyun Qwen-VL API
+openai>=1.0.0            # OpenAI API for content filter recovery
+pdf2image>=1.16.0        # PDF to image conversion
+Pillow>=9.0.0            # Image processing
+PyYAML>=6.0              # YAML parsing
+PyPDF2>=3.0.0            # PDF manipulation
+filelock>=3.0.0          # File locking for progress
+psutil>=5.9.0            # System resource monitoring

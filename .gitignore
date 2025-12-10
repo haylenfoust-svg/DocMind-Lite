@@ -1,0 +1,40 @@
+# Environment and secrets
+.env
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+
+# Output directories (contain generated files)
+output/
+final-delivery/
+logs/
+reports/
+
+# Input files (user data)
+input/*.pdf
+input/split_pdfs/
+
+# Progress tracking
+progress.json
+progress_*.json
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
