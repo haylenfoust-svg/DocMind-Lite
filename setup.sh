@@ -8,6 +8,9 @@
 
 set -e
 
+# Auto-fix permissions
+chmod +x "$0" run.sh 2>/dev/null || true
+
 # Color codes for output
 RED='\033[0;31m'
 GREEN='\033[0;32m'
